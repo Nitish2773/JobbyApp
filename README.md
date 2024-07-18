@@ -2,6 +2,7 @@ In this project, let's build a **Jobby App**
 JobbyApp is a dynamic web application developed using React, Node.js, HTML, CSS, and JavaScript. It provides users with a seamless platform to search for jobs, view job details, and manage their profiles.
 
 > Key Features:
+
 **Login Page:**
 
 Secure login functionality for user authentication.
