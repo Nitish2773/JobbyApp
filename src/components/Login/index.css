@@ -1,0 +1,85 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-card {
+  background-color: #202020;
+  padding: 15px;
+  width: 400px;
+  padding-bottom: 25px;
+  border-radius: 10px;
+}
+
+.login-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-logo {
+  width: 150px;
+  margin-bottom: 35px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.label {
+  color: #f8fafc;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.input {
+  padding: 8px 16px;
+  border: 1px solid #64748b;
+  border-radius: 5px;
+  background: transparent;
+  outline: none;
+  width: 100%;
+  margin-bottom: 12px;
+  color: #f8fafc;
+}
+
+.input::placeholder {
+  color: #64748b;
+}
+
+.login-btn {
+  padding: 8px 16px;
+  background-color: #6366f1;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.login-btn:hover {
+  background: transparent;
+  border: 1px solid #6366f1;
+  color: #6366f1;
+  transition: 0.4s;
+}
+
+.error-msg {
+  color: #ff0b37;
+  font-size: 14px;
+}
+
+.in-error {
+  border: 1px solid #ff0b37;
+}
+
+@media screen and (max-width: 600px) {
+  .login-card {
+    width: 300px;
+  }
+}

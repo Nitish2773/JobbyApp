@@ -1,0 +1,89 @@
+.navbar {
+  background-color: #272727;
+}
+.nav-large {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.lg-logo {
+  width: 120px;
+  cursor: pointer;
+}
+
+.lg-nav-items {
+  display: flex;
+  gap: 35px;
+  margin-right: 90px;
+}
+
+.lg-nav-links {
+  list-style: none;
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.lg-nav-links:hover {
+  color: #6366f1;
+  transition: 0.4s;
+}
+
+.logout-btn-container {
+  margin-right: 20px;
+}
+
+.logout-btn {
+  padding: 8px 16px;
+  background-color: #6366f1;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background: transparent;
+  border: 1px solid #6366f1;
+  color: #6366f1;
+  transition: 0.4s;
+}
+
+.sm-nav-items {
+  display: none;
+}
+.lg-btn {
+  background: none;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+}
+.links {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .lg-nav-items {
+    display: none;
+  }
+  .logout-btn-container {
+    display: none;
+  }
+  .sm-nav-items {
+    display: flex;
+    gap: 20px;
+  }
+  .sm-nav-links {
+    list-style: none;
+    color: #f8fafc;
+    font-size: 20px;
+  }
+}

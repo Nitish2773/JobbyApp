@@ -1,0 +1,35 @@
+.not-found-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.not-found-img {
+  width: 350px;
+}
+
+.not-found-heading {
+  font-size: 25px;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.not-found-text {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 17px;
+}
+
+@media screen and (max-width: 768px) {
+  .not-found-img {
+    width: 230px;
+  }
+  .not-found-heading {
+    font-size: 20px;
+  }
+  .not-found-text {
+    font-size: 14px;
+  }
+}
