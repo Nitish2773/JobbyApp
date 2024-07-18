@@ -3,6 +3,11 @@ JobbyApp is a dynamic web application developed using React, Node.js, HTML, CSS,
 
 https://nitishJobbyApp.ccbp.tech
 
+
+https://github.com/user-attachments/assets/6bca748e-0820-488e-9066-d0b1c396f282
+
+
+
 > Key Features:
 
 **Login Page:**
